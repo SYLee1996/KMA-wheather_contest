@@ -44,11 +44,7 @@ tabular data에 우수한 성능을 보이는 머신러닝 및 딥러닝 모델 
     + 후보 모델: LightGBM, DNN, TabNet 
     + 모델 제외 사유: LSTM의 경우 window size 이용하여 데이터를 구성하는데, 처음의 window size 만큼은 예측이 불가
     + 5-fold 진행
-    
-    + TTA
-        -> tta.HorizontalFlip()     
-        -> tta.VerticalFlip()       
-        -> tta.Rotate90(angles=[0, 90, 180, 270])    
+
 </br>
 
 + ### Train     
@@ -177,7 +173,7 @@ k-fold Valid Loss:  0.0008324413673741922
 ----
 + ### Result
     
-    + 중요 변수만을 선택하여 학습 시, 상위 50개의 변수를 선택하여 학습한 경우 RMSE는 0.596673으로 모든 변수를 사용한 결과보다 RMSE 성능이 0.00762 만큼 좋은 것을 볼 수 있음
+    + 중요 변수만을 선택하여 학습 시, 상위 50개의 변수를 선택하여 학습한 경우 RMSE는 0.596673이며, 50개의 변수를 이용하여 앙상블 시 RMSE는 0.592461으로 RMSE 성능이 가장 좋은 것을 볼 수 있음
     
 
       | Model                | RMSE post-processing(O) | RMSE post-processing(X) |
