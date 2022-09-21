@@ -1,4 +1,4 @@
-# KMA_wheather_contest
+# KMA-wheather_contest
 
 ## Final 2nd(기상청장상) | Ensemble DNN+Important Features(DNN, SHAP)
 
