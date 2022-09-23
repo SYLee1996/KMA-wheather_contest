@@ -1,6 +1,6 @@
 # KMA-wheather_contest
 
-## Final 2nd(기상청장상) | Ensemble DNN+Important Features(DNN, SHAP)
+## Final 2nd(기상청장상) | Ensemble DNN + Important Features(DNN, SHAP)
 
 + 주최 및 주관: 기상청 
 + 링크: https://bd.kma.go.kr/contest/main.do
