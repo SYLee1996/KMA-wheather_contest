@@ -182,9 +182,5 @@ k-fold Valid Loss:  0.0008324413673741922
       | TOP 40               |         0.599597        |       **0.599517**      |
       | TOP 50               |         0.599045        |       **0.596673**      |
       | Ensemble             |         0.592531        |       **0.592461**      |
-      
-+ ### 개선할 점
-+ 여러 언어로 학습 후 여러 언어로 inference 진행하여 ensemble(Multi-lingual) -> 해당 방법은 Back-translation 처럼 다른 NLP task에 적용 가능할 것 같아보임
-
 
 
